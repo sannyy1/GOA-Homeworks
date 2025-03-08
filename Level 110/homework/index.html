@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Examples</title>
+  <!-- Link to external JavaScript file -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Task 3: getElementById -->
+  <h1 id="header">Welcome to My Website!</h1>
+  <button onclick="changeHeaderText()">Change Header Text</button>
+
+  <br><br>
+
+  <!-- Task 4: getElementsByClassName -->
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+  <button onclick="changeBoxColors()">Change Box Colors</button>
+
+  <br><br>
+
+  <!-- Task 5: getElementsByTagName -->
+  <p>First paragraph.</p>
+  <p>Second paragraph.</p>
+  <p>Third paragraph.</p>
+  <button onclick="changeParagraphText()">Change Paragraph Text</button>
+
+  <br><br>
+
+  <!-- Task 6: innerHTML -->
+  <div id="content">
+    <h2>Original Content</h2>
+    <p>This content will change when you click the button.</p>
+  </div>
+  <button onclick="changeContent()">Change Content</button>
+
+  <br><br>
+
+  <!-- Task 7: innerText -->
+  <div id="message">Original message.</div>
+  <button onclick="changeText()">Change Text</button>
+
+  <br><br>
+
+  <!-- Task 8: style -->
+  <div id="box" style="width: 100px; height: 100px; background-color: red;">
+    Box
+  </div>
+  <button onclick="changeBoxStyle()">Change Box Style</button>
+
+</body>
+</html>

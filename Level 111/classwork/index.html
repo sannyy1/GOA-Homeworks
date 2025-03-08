@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            height: 100vh;        
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: lightblue;
+            color: white;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <img id="images" src="myImage.png" alt="" width="350">
+        
+        <button id="htmlBtn" onclick="changeToHtml()">HTML</button>
+        <button id="cssBtn" onclick="changeToCss()">CSS</button>
+        <button id="jsBtn" onclick="changeToJs()">JS</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
